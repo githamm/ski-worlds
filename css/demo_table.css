@@ -55,22 +55,25 @@
 .dataTables_length {
 	width: 40%;
 	float: left;
+	display: none;
 }
 
 .dataTables_filter {
 	width: 50%;
-	float: right;
-	text-align: right;
+	float: left;
+	text-align: left;
 }
 
 .dataTables_info {
 	width: 60%;
 	float: left;
+	display: none;
 }
 
 .dataTables_paginate {
 	float: right;
 	text-align: right;
+	display: none;
 }
 
 /* Pagination nested */
@@ -154,6 +157,7 @@ table.display thead th {
 	border-bottom: 1px solid black;
 	font-weight: bold;
 	cursor: pointer;
+	text-align: center;
 	* cursor: hand;
 }
 
@@ -169,10 +173,12 @@ table.display tr.heading2 td {
 
 table.display td {
 	padding: 3px 10px;
+	font-family: verdana, sans-serif;
+	font-size: 15px;
 }
 
 table.display td.center {
-	text-align: center;
+	text-align: left;
 }
 
 
