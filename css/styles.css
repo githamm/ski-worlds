@@ -18,4 +18,6 @@ td { font-size: 15px !important; font-family: Verdana, sans-serif; }
 #gold { height: 25px; width: 100%; min-width: 65px; padding: 4.5px 0px 0px 0px; background: rgba(253,208,23,1.0); color: white; font-size: 15px; font-weight: bold; text-align: center; }
 #silver { height: 25px; width: 100%; min-width: 65px; padding: 4.5px 0px 0px 0px; background: rgba(192,192,192,1.0); color: white; font-size: 15px; font-weight: bold; text-align: center; }
 #bronze { height: 25px; width: 100%; min-width: 65px; padding: 4.5px 0px 0px 0px; background: rgba(205,127,50,1.0); color: white; font-size: 15px; font-weight: bold; text-align: center; }
-td.center { background-color: white !important; vertical-align: middle;}
+td.center { background-color: white !important; vertical-align: middle; }
+.container-fluid { padding-bottom: 20px; }
+label { font-family: verdana; }
